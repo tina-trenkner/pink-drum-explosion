@@ -17,4 +17,8 @@ kbd is a HTML element for input via keyboard. The key code is a numeric value as
 
 ### tick marks in ES6
 
+### using window.addEventListener istead of say document.addEventListener
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+
 
