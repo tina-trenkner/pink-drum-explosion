@@ -30,6 +30,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 2. Console log the keydown event to review what attributes the object has. Review the info in dev tools.
 3. Refine JS script to listen for e.keyCode in the console.log. 
 4. Remove the console.log. Create a const variable for audio, make it equal to document.querySelector(`audio[data-key=${e.keyCode}]`) (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). Be careful: Use backticks on the keyboard key that also has the Spanish tilde. Console.log the audio element. 
+5. Set an if statement if the key doesn't have audio attached.
+6. Write script for audio to start at beginning (audio.currentTime = 0) and play in general (audio.play())
 
 ## Ways to improve the responsiveness of this interactive
 
