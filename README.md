@@ -16,6 +16,8 @@ kbd is a HTML element for input via keyboard. The key code is a numeric value as
 ### data as an HTML attribute
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 
+I'm not terribly clear on if/when I'll need to use data attributes in say front-end dev for Magento, probs never for Shopify. So it remains to be seen how useful this will be, beyond this JS project. 
+
 ### tick marks in ES6
 
 ### using window.addEventListener instead of say document.addEventListener
