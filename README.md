@@ -25,6 +25,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 ## Ways to improve the responsiveness of this interactive
 
-### Add an event listern for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
-### Add breakpoints so that the buttons move to a 2x4 formation on vertical mobile devices
+Add an event listern for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
+
+Add breakpoints so that the buttons move to a 2x4 formation on vertical mobile devices
 
