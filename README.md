@@ -8,7 +8,7 @@ Download the folder from this repo to your desktop.
 Open index-START.html
 Click a key in the home row (a-s-d-f-g-h-j-k-l) to play a different sound. 
 
-## concepts reviewed in this tutorial
+## Concepts reviewed in this tutorial
 
 ### key codes and <kbd></kbd>
 kbd is a HTML element for input via keyboard. The key code is a numeric value assigned to keys on the keyboard. 
@@ -17,7 +17,7 @@ kbd is a HTML element for input via keyboard. The key code is a numeric value as
 
 ### tick marks in ES6
 
-### using window.addEventListener istead of say document.addEventListener
+### using window.addEventListener instead of say document.addEventListener
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
