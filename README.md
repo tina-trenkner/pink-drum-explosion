@@ -14,6 +14,7 @@ Click a key in the home row (a-s-d-f-g-h-j-k-l) to play a different sound.
 kbd is a HTML element for input via keyboard. The key code is a numeric value assigned to keys on the keyboard. 
 
 ### data as an HTML attribute
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 
 ### tick marks in ES6
 
