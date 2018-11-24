@@ -23,6 +23,13 @@ I'm not terribly clear on if/when I'll need to use data attributes in say front-
 ### using window.addEventListener instead of say document.addEventListener
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
+## Steps to complete tutorial
+
+1. Set a keydown event listener on the window
+2. Console log the keydown event to review what attributes the object has. Review the info in dev tools.
+3. Refine JS script to listen for e.keyCode in the console.log. 
+4.
+
 ## Ways to improve the responsiveness of this interactive
 
 Add an event listern for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
