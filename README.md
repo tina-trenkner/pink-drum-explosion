@@ -18,7 +18,8 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 
 I'm not terribly clear on if/when I'll need to use data attributes in say front-end dev for Magento, probs never for Shopify. So it remains to be seen how useful this will be, beyond this JS project. 
 
-### tick marks in ES6
+### ES6 template strings
+Used to grab the audio element that has a keyCode. 
 
 ### using window.addEventListener instead of say document.addEventListener
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
@@ -28,7 +29,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 1. Set a keydown event listener on the window
 2. Console log the keydown event to review what attributes the object has. Review the info in dev tools.
 3. Refine JS script to listen for e.keyCode in the console.log. 
-4.
+4. Remove the console.log. Create a const variable for audio, make it equal to document.querySelector(`audio[data-key=${e.keyCode}]`) (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). Be careful: Use backticks on the keyboard key that also has the Spanish tilde.
 
 ## Ways to improve the responsiveness of this interactive
 
