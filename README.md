@@ -11,7 +11,7 @@ Click a key in the home row (a-s-d-f-g-h-j-k-l) to play a different sound.
 ## Concepts reviewed in this tutorial
 
 ### key codes and <kbd></kbd>
-kbd is a HTML element for input via keyboard. The key code is a numeric value assigned to keys on the keyboard. 
+kbd is a HTML element for input via keyboard. The key code is a numeric value assigned to keys on the keyboard. MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
 
 ### data as an HTML attribute
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
@@ -38,4 +38,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 Add an event listern for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
 
 Add breakpoints so that the buttons move to a 2x4 formation on vertical mobile devices
+
+## Ideas for using this as a template for future interactives
+
+Political speech generator: Make the audio clips clips from political speeches, add those clips to a timeline, make your own iconic political speech. 
 
