@@ -32,6 +32,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 4. Remove the console.log. Create a const variable for audio, make it equal to document.querySelector(`audio[data-key=${e.keyCode}]`) (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector). Be careful: Use backticks on the keyboard key that also has the Spanish tilde. Console.log the audio element. 
 5. Set an if statement if the key doesn't have audio attached.
 6. Write script for audio to start at beginning (audio.currentTime = 0) and play in general (audio.play())
+7. Create a const for key, make it equal to document.querySelector(`.key[data-key=${e.keyCode}]`)
 
 ## Ways to improve the responsiveness of this interactive
 
