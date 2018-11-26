@@ -33,6 +33,13 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 5. Set an if statement if the key doesn't have audio attached.
 6. Write script for audio to start at beginning (audio.currentTime = 0) and play in general (audio.play())
 7. Create a const for key, make it equal to document.querySelector(`.key[data-key=${e.keyCode}]`)
+8. Add a 'playing' class to the element that already has a class of 'key', using key.classList.add('playing')
+9. Create a transition end event, in order to remove the "playing" class, which will transition the animation of each kdb element back to normal or start. Create a global variable of keys, and put a transition function on that variable. 
+10. 
+
+## Watch out! 
+
+Confusing 'transform' with 'transition' may cause issues when naming functions and variables, and could cause some unnecessary debugging if one isn't careful. Be vigilant on which word you use. :)
 
 ## Ways to improve the responsiveness of this interactive
 
