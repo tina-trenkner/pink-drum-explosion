@@ -35,7 +35,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 7. Create a const for key, make it equal to document.querySelector(`.key[data-key=${e.keyCode}]`)
 8. Add a 'playing' class to the element that already has a class of 'key', using key.classList.add('playing')
 9. Create a transition end event, in order to remove the "playing" class, which will transition the animation of each kdb element back to normal or start. Create a global variable of keys, and put a transition function on that variable. 
-10. Figure out how to change the background color based on the keycode of the event. 
+10. Figure out how to change the background color based on the keycode of the event. I created a CodePen (https://codepen.io/tinatrenkner/pen/pQZpxV) to test out if I could get a keystroke to change the bg color, then tried to get a certain pressed key to change the bg color. I also used CodePen to see if I like the colors I wanted to use, and ultimately pulled hex colors from here: https://www.color-hex.com/color/ff69b4. Once I was happy with CodePen, I tried to integrate my code into Wes Bos's solution. 
 
 ## Watch out! 
 
