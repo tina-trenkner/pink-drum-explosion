@@ -72,6 +72,10 @@ function playSound(e) {
   audio.currentTime = 0;
   audio.play();
 
+  if (e.keyCode === 65) {
+ document.body.style.backgroundColor = "#FF69B4"
+ }
+
   if (e.keyCode === 83) {
  document.body.style.backgroundColor = "#ff78bb"
  }
@@ -98,17 +102,6 @@ document.body.style.backgroundColor = "#cc5490"
 document.body.style.backgroundColor = "#b2497d"
 }
 }
-
-// function changeBgColor(e) {
-//   if (e.keyCode === 83) {
-//  document.body.style.backgroundColor = "#ff78bb"
-//  }
-// }
-//
-// function playPinkSound() {
-//   playSound;
-//   changeBgColor;
-// }
 
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
