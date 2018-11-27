@@ -1,7 +1,7 @@
 # pink-drum-explosion
-a visualization based off of Wes Bos's JS drum kit. While watching the video for this tutorial, I thought it would be so much cooler to have the background change colors (instead of have a static image as the background).
+A visualization based off of Wes Bos's JS drum kit. While watching the video for this tutorial, I thought it would be so much cooler to have the background change colors when you play a sound (instead of have a static image as the background).
 
-I followed the video tutorial to improve my vanilla JS skills, then researched how to change the background colors as an added CSS/JS challenged.
+I followed the video tutorial to improve my vanilla JS skills, then researched how to change the background colors as an added CSS/JS challenge.
 
 ## To start the interactive (in process):
 Download the folder from this repo to your desktop.
@@ -35,7 +35,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 7. Create a const for key, make it equal to document.querySelector(`.key[data-key=${e.keyCode}]`)
 8. Add a 'playing' class to the element that already has a class of 'key', using key.classList.add('playing')
 9. Create a transition end event, in order to remove the "playing" class, which will transition the animation of each kdb element back to normal or start. Create a global variable of keys, and put a transition function on that variable. 
-10. 
+10. Change the CSS so that the background is no longer a static image, but one of the pink colors. 
+11. Figure out how to change the background color based on the keycode of the event. I created a CodePen (https://codepen.io/tinatrenkner/pen/pQZpxV) to test out if I could get a keystroke to change the bg color, then tried to get a certain pressed key to change the bg color. I also used CodePen to see if I like the colors I wanted to use, and ultimately pulled hex colors from here: https://www.color-hex.com/color/ff69b4. Once I was happy with CodePen, I tried to integrate my code into Wes Bos's solution. 
+12. More steps to come? My brain is fried. :p
 
 ## Watch out! 
 
@@ -43,11 +45,11 @@ Confusing 'transform' with 'transition' may cause issues when naming functions a
 
 ## Ways to improve the responsiveness of this interactive
 
-Add an event listern for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
+Add an event listener for an onclick, so that mouse users (and maybe mobile users?) can play the sounds
 
 Add breakpoints so that the buttons move to a 2x4 formation on vertical mobile devices
 
 ## Ideas for using this as a template for future interactives
 
-Political speech generator: Make the audio clips clips from political speeches, add those clips to a timeline, make your own iconic political speech. 
+Political speech generator: Make the audio clips come from political speeches, add those clips to a timeline, make your own iconic political speech. 
 
